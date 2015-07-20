@@ -1,0 +1,76 @@
+@mixin another_float($mr) {
+  display: inline-block;
+  margin-right: $mr;
+}
+
+@mixin no_spaces( $pv, $mv ){
+	padding:$pv;
+	margin:$mv;
+}
+
+@mixin progress_bar( $bg-c, $bg, $w){
+	background: $bg-c $bg;
+	width: $w;
+}
+
+@mixin progress_bar_state( $bg-c){
+	background: $bg-c;
+	margin: 20px 0 20px 0px;
+}
+
+@mixin gradient_01(){
+	background: #b31901; /* Old browsers */
+	background: -moz-linear-gradient(left,  #b31901 0%, #c81b01 33%, #c21a01 69%, #b21901 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%,#b31901), color-stop(33%,#c81b01), color-stop(69%,#c21a01), color-stop(100%,#b21901)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(left,  #b31901 0%,#c81b01 33%,#c21a01 69%,#b21901 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(left,  #b31901 0%,#c81b01 33%,#c21a01 69%,#b21901 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(left,  #b31901 0%,#c81b01 33%,#c21a01 69%,#b21901 100%); /* IE10+ */
+	background: linear-gradient(to right,  #b31901 0%,#c81b01 33%,#c21a01 69%,#b21901 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b31901', endColorstr='#b21901',GradientType=1 ); /* IE6-9 */
+}
+
+
+@mixin transition($transition...) {
+    -moz-transition:    $transition;
+    -o-transition:      $transition;
+    -webkit-transition: $transition;
+    transition:         $transition;
+}
+@mixin transition-property($property...) {
+    -moz-transition-property:    $property;
+    -o-transition-property:      $property;
+    -webkit-transition-property: $property;
+    transition-property:         $property;
+}
+@mixin transition-duration($duration...) {
+    -moz-transition-property:    $duration;
+    -o-transition-property:      $duration;
+    -webkit-transition-property: $duration;
+    transition-property:         $duration;
+}
+@mixin transition-timing-function($timing...) {
+    -moz-transition-timing-function:    $timing;
+    -o-transition-timing-function:      $timing;
+    -webkit-transition-timing-function: $timing;
+    transition-timing-function:         $timing;
+}
+@mixin transition-delay($delay...) {
+    -moz-transition-delay:    $delay;
+    -o-transition-delay:      $delay;
+    -webkit-transition-delay: $delay;
+    transition-delay:         $delay;
+}
+
+@mixin boxshadow-prefix($hl, $vl, $br, $s, $color){
+    -moz-box-shadow:    $hl, $vl, $br, $s, $color;
+    -o-box-shadow:      $hl, $vl, $br, $s, $color;
+    -webkit-box-shadow: $hl, $vl, $br, $s, $color;
+    box-shadow:$hl, $vl, $br, $s, $color;
+}
+
+@mixin borderradius-prefix($border){
+    -moz-border-radius: $border $border $border $border;
+    -o-border-radius: $border $border $border $border;
+    -webkit-border-radius: $border $border $border $border;
+    border-radius: $border $border $border $border;
+}

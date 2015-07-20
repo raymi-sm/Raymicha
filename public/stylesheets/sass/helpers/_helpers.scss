@@ -1,0 +1,121 @@
+/* ESTILOS PREDETERMINADOS QUE VIENEN DE ALGÚN PLUGIN QUE VAN A SER REESCRITOS */
+//SLICKLIST
+
+/* GENERAL */
+
+.mini-slider{
+	.slick-prev, .slick-next{
+      width: 32px;
+      height: 32px;
+      display: block;
+      background: #E7EBEB;
+      border-radius: 100% 100%;
+      margin: 0 0 0 -16px;
+      font-size: 100%;
+    }
+
+    .slick-prev::before, .slick-next::before{
+      font-size: 10px;
+      color: blue;
+    }
+
+    .slick-prev{
+      left: 8px;
+      top: 24px;
+
+      &::before{
+        content: "\f060";
+      }
+      &:hover{
+      	background: #b8b8b8;
+      }
+    }
+
+    .slick-next{
+      right: 6px;
+      top: 24px;
+      &::before{
+        content: "\f061";
+      }
+      &:hover{
+      	background: #b8b8b8;
+      }
+    }
+}
+
+/* Para el slider en Horizontal */
+.block-sd-hr {
+  ul{
+    .slick-prev, .slick-next{
+      width: 32px;
+      height: 32px;
+      display: block;
+      background: #E7EBEB;
+      border-radius: 100% 100%;
+      margin: -16px 0 0 0;
+      top: 50%;
+    }
+    .slick-prev::before, .slick-next::before{
+      font-size: 10px;
+      color: #6B747E;
+    }
+    .slick-next{
+      right: 0;      
+      left: auto;
+      &::before{
+        content: "\f061";
+      }
+    }
+
+    .slick-prev{
+     left: 0;
+      &::before{
+        content: "\f060";
+      }
+    }
+  }
+
+}
+
+
+
+/* Para el slider en Vertical */
+
+.block-sd-vr {
+	ul{
+    .slick-prev, .slick-next{
+      width: 32px;
+      height: 32px;
+      display: block;
+      background: #E7EBEB;
+      border-radius: 100% 100%;
+      margin: 0 0 0 -16px;
+    }
+    .slick-prev::before, .slick-next::before{
+      font-size: 10px;
+      color: #6B747E;
+    }
+    .slick-next{
+      right: auto;
+      top: auto;
+      left: 50%;
+      bottom: 0;
+      &::before{
+        content: "\f063";
+      }
+    }
+
+		.slick-prev{
+      left: 50%;
+      top: 0;
+			&::before{
+				content: "\f062";
+			}
+		}
+	}
+
+}
+
+/*body{
+  background: url("#{$assetPath}/16_col.png") repeat-y center top; 
+}*/

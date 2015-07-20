@@ -1,0 +1,172 @@
+/* ESTILOS FOOTER DE LA WEB - LR  */
+
+.panel .panel-title {
+  font-size: 20px;
+  font-family: 'Oswald', Arial, sans-serif;
+  color: #677887;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.panel .panel-title:after {
+  content: " ";
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  margin-left: 7px;
+  margin-top: -3px;
+  background: url(../image/double-arrow-bottom.png) 0 0 no-repeat;
+}
+.node img {
+  max-width: 100%;
+  height: auto;
+}
+.node h5 {
+  line-height: 130%;
+  font-weight: 700;
+  font-size: 17px;
+  margin-bottom: 10px;
+}
+.node a,
+.node a:hover {
+  color: #1f1f1f;
+  text-decoration: none;
+}
+.node .block-post-time {
+  font-size: 12px;
+  margin-bottom: 20px;
+}
+.node:last-child .block-post-time {
+  margin-bottom: 0;
+}
+
+#main {
+  min-height: 500px;
+}
+  .nota-breadcrumb{
+    font:12px 'Oswald', Arial, sans-serif;
+    text-transform: uppercase;
+  }
+  .nota-bf-main .nota-date{
+    font-size: 13px;
+  }
+
+/* RELATED AREA */
+
+.block-noticias-relacionadas .slider ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.topic-area .crossing-title, .block-photo-galery .crossing-title {
+  border-color: #aa1801;
+}
+.topic-area .crossing-title span, .block-photo-galery .crossing-title span {
+  background-color: #aa1801;
+}
+.mas-vistos-panel {
+  background-color: #f6e7e5;
+  padding: 20px;
+  max-width: 95%;
+}
+.mas-vistos-panel .panel-title {
+  font-size: 18px;
+}
+.ultimas-noticias-panel {
+  margin-left: -12px;
+  padding-right: 0;
+}
+.ultimas-noticias-panel .panel-title {
+  font-size: 22px;
+  margin-bottom: 35px;
+}
+.ultimas-noticias-panel .node h5 {
+  font-size: 18px;
+}
+.ultimas-noticias-panel .node .block-post-time {
+  margin-bottom: 0;
+}
+.ultimas-noticias-panel .node {
+  border-bottom: 1px solid #dce0e4;
+  padding-bottom: 5px;
+  margin-bottom: 20px;
+}
+/* FOOTER */
+
+.footer-wrap {
+  background-color: #1A1A1A;
+}
+.footer-top {
+  border-bottom: 1px solid #1A1A1A;
+}
+.footer-wrap .container {
+  padding: 30px 0;
+}
+.copyright-block {
+  padding: 0 0 0 0;
+  min-width: 260px;
+  font-size: 15px;
+}
+.copyright-block h4 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #FFF; 
+  text-align: center;
+}
+.copyright-block .logo-glr {
+  margin-left: 15px;
+  display: none;
+}
+.copyright-block .copyright {
+  font-size: 13px;
+  color: #FFF; 
+  text-align: center;
+}
+.copyright-block .address{
+  display: none;
+}
+
+.trending-list {
+  border-left: 1px solid white;
+  position: relative;
+}
+.trending-list:before {
+  border-left: 1px solid #c7c7c7;
+  content: " ";
+  display: block;
+  position: absolute;
+  left: 0;
+  height: 100%;
+}
+.trending-list {
+  font-size: 13px;
+}
+.trending-list a {
+  color: #333333;
+}
+.trending-list ul {
+  list-style: none;
+}
+.footer-bottom {
+  border-top: 1px solid white;display: none;
+}
+.pal .container {
+  margin: 0 auto;
+  padding: 10px 0;
+  list-style: none;
+  
+}
+.pal .container li {
+  display: inline-block;
+  border-right: 1px solid #787878;
+  padding: 0 3px 0 2px;
+  font-size: 12px;
+  line-height: 100%;
+}
+.pal .container li:first-child {
+  padding-right: 0;
+}
+.pal .container li,
+.pal .container li a {
+  color: #787878;
+}

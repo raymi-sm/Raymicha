@@ -1,0 +1,29 @@
+/* ESTILOS RESPONSIVE - LR  */
+@media (min-width: 768px) {
+  
+}
+@media (min-width:980px){
+  .top-head .container-banner, .container-banner{
+    display: block;
+  }
+
+  .col-main{width: 66.668%; }
+  .col-sidebar{ width: 33.333%;}
+
+
+  .footer-wrap {
+    background-color: #e3e3e3;
+  }
+  .footer-top {
+    border-bottom: 1px solid #c7c7c7;
+  }
+  .copyright-block{padding: 80px 10px 0 0;}
+  .copyright-block .logo-glr{display: block;}
+  .copyright-block .address{display: block;}
+  .copyright-block h4 {color: #1f1f1f;text-align: left;}
+  .copyright-block .copyright{color: #1f1f1f;text-align: left;}
+}
+@media (min-width: 1100px) {
+  
+
+}
